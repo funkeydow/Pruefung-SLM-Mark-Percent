@@ -1,0 +1,13 @@
+package com.example.pruefungslmmarkpercent;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PruefungSlmMarkPercentApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PruefungSlmMarkPercentApplication.class, args);
+	}
+
+}
