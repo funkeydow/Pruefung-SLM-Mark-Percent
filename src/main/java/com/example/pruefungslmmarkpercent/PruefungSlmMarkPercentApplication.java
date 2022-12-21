@@ -15,7 +15,7 @@ public class PruefungSlmMarkPercentApplication {
     }
 
     @GetMapping("api/mark")
-    public String SetMessage(@RequestParam(name="percentage") String msg){
+    public String GetMarkFromPercentage(@RequestParam(name="percentage") String msg){
         int percentage = Integer.valueOf(msg);
         if(percentage >= 88){
             return "1";
